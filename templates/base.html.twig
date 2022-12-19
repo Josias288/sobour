@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sobour Bank</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href={{ asset("images/cc.jpg")}}>
+    <link href={{asset("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700")}} rel="stylesheet">
+    <link rel="stylesheet" href={{ asset("fonts/icomoon/style.css")}}>
+
+    <link rel="stylesheet" href={{ asset("css/bootstrap.min.css")}}>
+    <link rel="stylesheet" href={{ asset("css/jquery-ui.css")}}>
+    <link rel="stylesheet" href={{ asset("css/owl.carousel.min.css")}}>
+    <link rel="stylesheet" href={{ asset("css/owl.theme.default.min.css")}}>
+    <link rel="stylesheet" href={{ asset("css/owl.theme.default.min.css")}}>
+
+    <link rel="stylesheet" href={{ asset("css/jquery.fancybox.min.css")}}>
+
+    <link rel="stylesheet" href={{ asset("css/bootstrap-datepicker.css")}}>
+
+    <link rel="stylesheet" href={{ asset("fonts/flaticon/font/flaticon.css")}}>
+
+    <link rel="stylesheet" href={{ asset("css/aos.css")}}>
+
+    <link rel="stylesheet" href={{ asset("css/style.css")}}>
+    
+  </head>
+ <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+   <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href={{ path("accueil") }} class="h2 mb-0">
+            <img src={{ asset("images/sobour.jpg")}} width="35" height="35" alt="">Sobour Bank<span class="text-primary"></span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Σπίτι</a></li>
+                <li><a href="#pret-section" class="nav-link">Αίτημα δανείου</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">Ποιοι είμαστε?</a>
+                  <ul class="dropdown">
+                    <li><a href="#team-section" class="nav-link">Η ομάδα μας</a></li>
+                   
+                    <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                    <li><a href="#services-section" class="nav-link">Οι Υπηρεσίες μας</a></li>
+                    <li><a href="#testimonials-section" class="nav-link">Μαρτυρίες</a></li>
+                    
+                  </ul>
+                </li>
+                
+                <li><a href="#contact-section" class="nav-link">Επικοινωνία</a></li>
+                <li class="social"><span class="icon-facebook"></span></li>
+                <li class="social"><span class="icon-twitter"></span></li>
+                <li class="social"><span class="icon-linkedin"></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+<div class="site-blocks-cover overlay" style="background-image: url({{asset('images/hero_2.jpg')}});" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Τραπεζικές Λύσεις</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Ανοιχτές και ευέλικτες τραπεζικές λύσεις για ιδιώτες</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="#contact-section"  class="btn  btn-primary mr-2 mb-2">επικοινωνήστε μαζί μας</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Οικονομικές Λύσεις</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Σας παρέχουμε μια εξατομικευμένη λύση χρηματοδότησης</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="#contact-section"  class="btn  btn-primary mr-2 mb-2">επικοινωνήστε μαζί μας</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+      <a href="#next" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>  
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Ποιοι είμαστε</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Η Sobour Bank είναι ένας ιδιωτικός τραπεζικός όμιλος, με επικεφαλής μια ένωση εμπόρων</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src={{asset ("images/img_2.jpg")}} alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+            <h3 class="text-black mb-4">Λύνουμε το οικονομικό σας πρόβλημα</h3>
+
+            <p>Επιλύουμε τα προβλήματά σας δημιουργώντας χρηματοοικονομικές υπηρεσίες που λειτουργούν: χωρίς χρεώσεις συναλλαγών</p>
+
+            <p>Παρέχουμε πρόσβαση σε προσωπικές αλληλεπιδράσεις με εξειδικευμένους χρηματοοικονομικούς συμβούλους και εκπαιδευτικά προγράμματα που ενημερώνουν και δίνουν κίνητρα</p>
+            
+          </div>
+        </div>    
+        
+      </div>  
+    </div>
+
+    <div class="site-section" id="next">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
+            <img src={{asset("images/flaticon-svg/svg/001-wallet.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Οικονομία</h3>
+            <p>Λάβετε λογαριασμό ταμιευτηρίου και συμβουλές από εμάς</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+            <img src={{asset("images/flaticon-svg/svg/004-cart.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Online αγορά</h3>
+            <p>Έχουμε λύσεις για τις online αγορές σας με ευέλικτες χρεώσεις</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
+            <img src={{asset("images/flaticon-svg/svg/006-credit-card.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Πιστωτικές/χρεωστικές κάρτες</h3>
+            <p>Πιστώνουμε τις κάρτες visa σας ανεξάρτητα από την τράπεζά σας</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src={{asset("images/about_2.jpg")}} alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3 class="h3 mb-4 text-black">Οι τραπεζικές λύσεις είναι προτεραιότητά μας</h3>
+              <p>Ζήστε τα έργα σας στο έπακρο απολαμβάνοντας τη ζωή </p>
+              
+            </div>
+              
+            <div class="mb-4">
+              <ul class="list-unstyled ul-check success">
+                <li>Φοιτητική προσφορά</li>
+                <li>Προσφορά ακινήτων</li>
+                <li>Επιχειρηματική προσφορά</li>
+              </ul>
+              
+            </div>
+
+            
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+     <section class="site-section bg-light" id="pret-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Κάντε αίτηση για δάνειο<h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+        
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+            {{ form_start(form1, {'attr': {'class': 'p-5 bg-white'}}) }}
+  
+              
+              <h2 class="h4 text-black mb-5">Αίτηση</h2> 
+
+
+            <div class="row form-group">
+                <div class="col-md-12">
+                    {{ form_row(form1.montant) }}
+                </div>
+                <div class="col-md-12">
+                    {{ form_row(form1.duree) }}
+                </div>
+            </div>
+            <div class="row form-group">
+                
+                <div class="col-md-12">
+                  {{ form_row(form1.type) }}
+                </div>
+              </div>
+            
+              
+               
+
+
+    <div class="row form-group">
+                <div class="col-md-12">
+    <button class="btn btn-primary btn-md text-white" id="v">{{ button_label|default('Να στείλετε μήνυμα') }}</button>
+    </div>
+    </div>
+{{ form_end(form1) }}
+
+  
+            
+          
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+    <section class="site-section border-bottom" id="team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Συναντησε την ομαδα</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Μερικά μέλη της ομάδας μας</p>
+          </div>
+        </div>
+        <div class="row">
+          
+
+          
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+              <figure>
+               
+                <img src={{asset("images/person_1.jpg")}} alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3> Dave Simpson</h3>
+                <span class="position">ΕΝΑΣ ΛΟΓΙΣΤΗΣ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <figure>
+                
+                <img src={{asset("images/person_2.jpg")}} alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Kaiara Spencer</h3>
+                <span class="position">ΤΑΜΙΑΣ </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <figure>
+                
+                <img src={{asset("images/person_3.jpg")}} alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Ben Thompson</h3>
+                <span class="position">ΤΑΜΙΑΣ </span>
+              </div>
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Πως δουλεύει</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Το να αποκτήσετε αυτό που θέλετε από εμάς είναι απλό</p>
+          </div>
+        </div>
+        
+        <div class="row align-items-lg-center" >
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+
+            <div class="owl-carousel slide-one-item-alt">
+              <img src={{asset("images/img_1.jpg")}} alt="Image" class="img-fluid">
+              <img src={{asset("images/build.jpg")}} alt="Image" class="img-fluid">
+              <img src={{asset("images/img_3.jpg")}} alt="Image" class="img-fluid">
+            </div>
+            <div class="custom-direction">
+              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+            </div>
+
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="owl-carousel slide-one-item-alt-text">
+              <div>
+                <h2 class="section-title mb-3">01. Διαδικτυακά αιτήματα</h2>
+                <p>Στη φόρμα επικοινωνίας βάλτε το θέμα του αιτήματός σας και μια λεπτομερή περιγραφή χωρίς να ξεχάσετε τον αριθμό τηλεφώνου και τον κωδικό χώρας και το email σας</p>
+
+                <p><a href="#contact-section" class="btn btn-primary mr-2 mb-2">Για να μάθετε περισσότερα</a></p>
+              </div>
+              <div>
+                <h2 class="section-title mb-3">02. Λάβετε έγκριση</h2>
+                <p>Στη συνέχεια θα επικοινωνήσουμε μαζί σας για να σας ενημερώσουμε για την έγκρισή μας και τους όρους μας.</p>
+                <p><a href="#contact-section" class="btn btn-primary mr-2 mb-2">Για να μάθετε περισσότερα</a></p>
+              </div>
+              <div>
+                <h2 class="section-title mb-3">03. Χρέωση σε λογαριασμό/κάρτα</h2>
+                <p>Η χρεωστική κάρτα ή ο λογαριασμός σας θα πιστωθεί</p>
+
+                <p><a href="#contact-section" class="btn btn-primary mr-2 mb-2">Για να μάθετε περισσότερα</a></p>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+     <section class="site-section border-bottom bg-light" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Οι Υπηρεσίες μας</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src={{asset("images/flaticon-svg/svg/001-wallet.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>συμβουλές αποταμίευσης</h3>
+                <p>Υιοθετήστε καλές πρακτικές αποταμίευσης και βελτιστοποιήστε τις στρατηγικές προϋπολογισμού σας τώρα μαζί μας</p>
+                <p><a href="#contact-section">Για να μάθετε περισσότερα</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src={{asset("images/flaticon-svg/svg/006-credit-card.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3> Πιστωτική κάρτα</h3>
+                <p>Προσφορά περιορισμένου χρόνου. Απαιτούνται ελάχιστες αγορές και ασφαλιστικά προϊόντα.</p>
+                <p><a href="#contact-section">Για να μάθετε περισσότερα</a></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src={{asset("images/flaticon-svg/svg/004-cart.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Χρηματοοικονομική επένδυση</h3>
+                <p>Η καθιέρωση μιας πυραμίδας στην οργάνωση των οικονομικών σας προτεραιοτήτων θα σας επιτρέψει να διακρίνετε τις δευτερεύουσες αποφάσεις από αυτές στις οποίες πρέπει να καθυστερήσετε.</p>
+                <p><a href="#contact-section">Για να μάθετε περισσότερα</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src={{asset("images/flaticon-svg/svg/005-megaphone.svg")}} alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Διαχείριση</h3>
+                <p>Μάθετε για τις επιπτώσεις για την ευθυγράμμιση των στόχων του συνταξιοδοτικού σας προγράμματος, των επενδύσεων κ.λπ.</p>
+                <p><a href="#contact-section">Για να μάθετε περισσότερα</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+     <section class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Ικανοποιημένοι πελάτες</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              
+              <blockquote class="mb-5">
+                <p>&ldquo;Πολύ ικανοποιημένος, πάνω από όλα πάντα διαθέσιμος να μας βοηθήσει και να απαντήσει στις ερωτήσεις μας&rdquo;</p>
+              </blockquote>
+
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <div><img src={{asset("images/1.jpg")}} alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>John Smith</p>
+              </figure>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;Πολύ ικανός και προβληματισμένος για τον πελάτη του !!!!!!!!!!&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <div><img src={{asset("images/2.jpg")}} alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Christian Aguilar</p>
+              </figure>
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;Ευρεία διαθεσιμότητα οικονομικών λύσεων με ευέλικτη προθεσμία &rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                 <div><img src={{asset("images/3.jpg")}} alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Robert Spears</p>
+              </figure>
+
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo; Είμαι ικανοποιημένος.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <div><img src={{asset("images/4.jpg")}} alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Bruce Rogers</p>
+              </figure>
+
+            </div>
+          </div>
+
+        </div>
+    </section>
+    
+    <section class="site-section bg-light" id="pricing-section">
+     
+        
+        <div class="row site-section" id="faq-section">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title">Συχνές Ερωτήσεις</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4">Τα μέσα πληρωμής ή χρέωσης μας</h3>
+            <p>Πραγματοποιούμε χρεώσεις σε όλες τις κάρτες visa και τραπεζικούς λογαριασμούς</p>
+            </div>
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">Ποια είναι η περίοδος αποπληρωμής;</h3>
+              <p>Ευέλικτες προθεσμίες ανάλογα με το δάνειό σας</p>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">Από που είσαι?</h3>
+              <p> Γαλλία </p>
+            </div>
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">Ποιες είναι οι ώρες λειτουργίας σας;</h3>
+              <p>8:00</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section" id="about-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src={{asset("images/img_4.jpg")}} alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+
+            <div class="row">
+
+              
+              
+              <div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="">
+                <div class="unit-4 d-flex">
+                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-head"></span></div>
+                  <div>
+                    <h3>τραπεζικό δάνειο</h3>
+                   
+                    <p class="mb-0"><a href="#contact-section">Για να μάθετε περισσότερα</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="unit-4 d-flex">
+                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-smartphone"></span></div>
+                  <div>
+                    <h3>Διαβούλευση με τράπεζα</h3>
+                  
+                    <p class="mb-0"><a href="#contact-section">Για να μάθετε περισσότερα</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+    
+    <section class="site-section bg-light" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">επικοινωνήστε μαζί μας<h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span>16  Robert Schuman Λεωφόρος- ZAC des Clairions - 89000 Auxerre, France</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <a href="#">+33 7 57 83 80 41</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <a href="#">terkibiezo@sobourbank.xyz</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+            {{ form_start(form, {'attr': {'class': 'p-5 bg-white'}},{'action': path('contact_new'), 'method': 'POST'}) }}
+  
+              
+              <h2 class="h4 text-black mb-5">Φόρμα Επικοινωνίας</h2> 
+
+
+            <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    {{ form_row(form.nom) }}
+                </div>
+                <div class="col-md-6">
+                    {{ form_row(form.prenom) }}
+                </div>
+            </div>
+            <div class="row form-group">
+                
+                <div class="col-md-12">
+                  {{ form_row(form.telephone) }}
+                </div>
+              </div>
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  {{ form_row(form.email) }}
+                </div>
+              </div>
+                <div class="row form-group">
+                
+                <div class="col-md-12">
+                  {{ form_row(form.objet) }}
+                </div>
+              </div>
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  {{ form_row(form.message) }}
+                </div>
+              </div>
+
+
+    <div class="row form-group">
+                <div class="col-md-12">
+    <button class="btn btn-primary btn-md text-white" id="vvv">{{ button_label|default('Να στείλετε μήνυμα') }}</button>
+    </div>
+    </div>
+{{ form_end(form) }}
+
+  
+            
+          
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+    <script>
+    const notyf = new Notyf(
+        {
+            duration:8000,
+            position: {
+                x: 'right',
+                y: 'top',
+            },
+            dismissible: true,
+            types: [
+               {
+      type: 'success',
+      background: 'orange',
+      
+    },
+              
+            ] 
+        }
+    ) 
+    $('#vvv').click(function () {
+      notyf.open({
+                        type: 'success',
+                        message :'Attention quantité seuil déja atteinte penser à faire une commande du produit'
+                    })
+    })
+    </script>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">Ποιοι είμαστε</h2>
+                <p>Η Sobour Bank είναι ένας ιδιωτικός τραπεζικός όμιλος, με επικεφαλής μια ένωση εμπόρων</p>
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Γρήγοροι σύνδεσμοι</h2>
+                <ul class="list-unstyled">
+                  
+                
+                  <li><a href="#about-section" class="smoothscroll">Ποιοι είμαστε</a></li>
+                  <li><a href="#services-section" class="smoothscroll">Υπηρεσίες</a></li>
+                  <li><a href="#testimonials-section" class="smoothscroll">Μαρτυρίες</a></li>
+                  <li><a href="#contact-section" class="smoothscroll">επικοινωνήστε μαζί μας</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 footer-social">
+                <h2 class="footer-heading mb-4"></h2>
+                <span class="icon-facebook"></span>
+                <span class="icon-twitter"></span>
+                <span class="icon-instagram"></span>
+                <span class="icon-linkedin"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+          
+        
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script>
+              </p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  </div> 
+
+
+   {% block body %}{% endblock %}
+
+  <script src={{ asset("js/jquery-3.3.1.min.js")}}></script>
+  <script src={{ asset("js/jquery-ui.js")}}></script>
+  <script src={{ asset("js/popper.min.js")}}></script>
+  <script src={{ asset("js/bootstrap.min.js")}}></script>
+  <script src={{ asset("js/owl.carousel.min.js")}}></script>
+  <script src={{ asset("js/jquery.countdown.min.js")}}></script>
+  <script src={{ asset("js/jquery.easing.1.3.js")}}></script>
+  <script src={{ asset("js/aos.js")}}></script>
+  <script src={{ asset("js/jquery.fancybox.min.js")}}></script>
+  <script src={{ asset("js/jquery.sticky.js")}}></script>
+  <script src={{ asset("js/isotope.pkgd.min.js")}}></script>
+
+  
+  <script src={{ asset("js/main.js")}}></script>
+
+  
+  </body>
+</html>
