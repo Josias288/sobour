@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="el" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ABD4ti0" resname="Σπίτι">
+        <source>Σπίτι</source>
+        <target>__Σπίτι</target>
+      </trans-unit>
+      <trans-unit id="i1QOH.h" resname="Αίτημα δανείου">
+        <source>Αίτημα δανείου</source>
+        <target>__Αίτημα δανείου</target>
+      </trans-unit>
+      <trans-unit id="E7V2gdl" resname="Ποιοι είμαστε?">
+        <source>Ποιοι είμαστε?</source>
+        <target>__Ποιοι είμαστε?</target>
+      </trans-unit>
+      <trans-unit id="mNTE45A" resname="Η ομάδα μας">
+        <source>Η ομάδα μας</source>
+        <target>__Η ομάδα μας</target>
+      </trans-unit>
+      <trans-unit id="So3Nf6R" resname="Οι Υπηρεσίες μας">
+        <source>Οι Υπηρεσίες μας</source>
+        <target>__Οι Υπηρεσίες μας</target>
+      </trans-unit>
+      <trans-unit id="t3NqFxq" resname="Μαρτυρίες">
+        <source>Μαρτυρίες</source>
+        <target>__Μαρτυρίες</target>
+      </trans-unit>
+      <trans-unit id="rWbbSWQ" resname="Επικοινωνία">
+        <source>Επικοινωνία</source>
+        <target>__Επικοινωνία</target>
+      </trans-unit>
+      <trans-unit id="VjyCJjg" resname="Τραπεζικές Λύσεις">
+        <source>Τραπεζικές Λύσεις</source>
+        <target>__Τραπεζικές Λύσεις</target>
+      </trans-unit>
+      <trans-unit id="fm4.umH" resname="Ανοιχτές και ευέλικτες τραπεζικές λύσεις για ιδιώτες">
+        <source>Ανοιχτές και ευέλικτες τραπεζικές λύσεις για ιδιώτες</source>
+        <target>__Ανοιχτές και ευέλικτες τραπεζικές λύσεις για ιδιώτες</target>
+      </trans-unit>
+      <trans-unit id="BC2ZtBU" resname="επικοινωνήστε μαζί μας">
+        <source>επικοινωνήστε μαζί μας</source>
+        <target>__επικοινωνήστε μαζί μας</target>
+      </trans-unit>
+      <trans-unit id="KRa5jnY" resname="Οικονομικές Λύσεις">
+        <source>Οικονομικές Λύσεις</source>
+        <target>__Οικονομικές Λύσεις</target>
+      </trans-unit>
+      <trans-unit id="As60tpj" resname="Σας παρέχουμε μια εξατομικευμένη λύση χρηματοδότησης">
+        <source>Σας παρέχουμε μια εξατομικευμένη λύση χρηματοδότησης</source>
+        <target>__Σας παρέχουμε μια εξατομικευμένη λύση χρηματοδότησης</target>
+      </trans-unit>
+      <trans-unit id="TORtfEx" resname="Ποιοι είμαστε">
+        <source>Ποιοι είμαστε</source>
+        <target>__Ποιοι είμαστε</target>
+      </trans-unit>
+      <trans-unit id="EYrkhRk" resname="Η Sobour Bank είναι ένας ιδιωτικός τραπεζικός όμιλος, με επικεφαλής μια ένωση εμπόρων">
+        <source>Η Sobour Bank είναι ένας ιδιωτικός τραπεζικός όμιλος, με επικεφαλής μια ένωση εμπόρων</source>
+        <target>__Η Sobour Bank είναι ένας ιδιωτικός τραπεζικός όμιλος, με επικεφαλής μια ένωση εμπόρων</target>
+      </trans-unit>
+      <trans-unit id="9OjyP9s" resname="Λύνουμε το οικονομικό σας πρόβλημα">
+        <source>Λύνουμε το οικονομικό σας πρόβλημα</source>
+        <target>__Λύνουμε το οικονομικό σας πρόβλημα</target>
+      </trans-unit>
+      <trans-unit id="JUl77aV" resname="Επιλύουμε τα προβλήματά σας δημιουργώντας χρηματοοικονομικές υπηρεσίες που λειτουργούν: χωρίς χρεώσεις συναλλαγών">
+        <source>Επιλύουμε τα προβλήματά σας δημιουργώντας χρηματοοικονομικές υπηρεσίες που λειτουργούν: χωρίς χρεώσεις συναλλαγών</source>
+        <target>__Επιλύουμε τα προβλήματά σας δημιουργώντας χρηματοοικονομικές υπηρεσίες που λειτουργούν: χωρίς χρεώσεις συναλλαγών</target>
+      </trans-unit>
+      <trans-unit id="P7wE50C" resname="Παρέχουμε πρόσβαση σε προσωπικές αλληλεπιδράσεις με εξειδικευμένους χρηματοοικονομικούς συμβούλους και εκπαιδευτικά προγράμματα που ενημερώνουν και δίνουν κίνητρα">
+        <source>Παρέχουμε πρόσβαση σε προσωπικές αλληλεπιδράσεις με εξειδικευμένους χρηματοοικονομικούς συμβούλους και εκπαιδευτικά προγράμματα που ενημερώνουν και δίνουν κίνητρα</source>
+        <target>__Παρέχουμε πρόσβαση σε προσωπικές αλληλεπιδράσεις με εξειδικευμένους χρηματοοικονομικούς συμβούλους και εκπαιδευτικά προγράμματα που ενημερώνουν και δίνουν κίνητρα</target>
+      </trans-unit>
+      <trans-unit id="SWmhwPq" resname="Οικονομία">
+        <source>Οικονομία</source>
+        <target>__Οικονομία</target>
+      </trans-unit>
+      <trans-unit id="qYWKk1p" resname="Λάβετε λογαριασμό ταμιευτηρίου και συμβουλές από εμάς">
+        <source>Λάβετε λογαριασμό ταμιευτηρίου και συμβουλές από εμάς</source>
+        <target>__Λάβετε λογαριασμό ταμιευτηρίου και συμβουλές από εμάς</target>
+      </trans-unit>
+      <trans-unit id="DwQIrm7" resname="Online αγορά">
+        <source>Online αγορά</source>
+        <target>__Online αγορά</target>
+      </trans-unit>
+      <trans-unit id="dx_84Ce" resname="Έχουμε λύσεις για τις online αγορές σας με ευέλικτες χρεώσεις">
+        <source>Έχουμε λύσεις για τις online αγορές σας με ευέλικτες χρεώσεις</source>
+        <target>__Έχουμε λύσεις για τις online αγορές σας με ευέλικτες χρεώσεις</target>
+      </trans-unit>
+      <trans-unit id="GdPAvhy" resname="Πιστωτικές/χρεωστικές κάρτες">
+        <source>Πιστωτικές/χρεωστικές κάρτες</source>
+        <target>__Πιστωτικές/χρεωστικές κάρτες</target>
+      </trans-unit>
+      <trans-unit id="a2fHvGW" resname="Πιστώνουμε τις κάρτες visa σας ανεξάρτητα από την τράπεζά σας">
+        <source>Πιστώνουμε τις κάρτες visa σας ανεξάρτητα από την τράπεζά σας</source>
+        <target>__Πιστώνουμε τις κάρτες visa σας ανεξάρτητα από την τράπεζά σας</target>
+      </trans-unit>
+      <trans-unit id="2nEy6Ug" resname="Οι τραπεζικές λύσεις είναι προτεραιότητά μας">
+        <source>Οι τραπεζικές λύσεις είναι προτεραιότητά μας</source>
+        <target>__Οι τραπεζικές λύσεις είναι προτεραιότητά μας</target>
+      </trans-unit>
+      <trans-unit id="WM6_96r" resname="Ζήστε τα έργα σας στο έπακρο απολαμβάνοντας τη ζωή">
+        <source>Ζήστε τα έργα σας στο έπακρο απολαμβάνοντας τη ζωή</source>
+        <target>__Ζήστε τα έργα σας στο έπακρο απολαμβάνοντας τη ζωή</target>
+      </trans-unit>
+      <trans-unit id="vY5vPLv" resname="Φοιτητική προσφορά">
+        <source>Φοιτητική προσφορά</source>
+        <target>__Φοιτητική προσφορά</target>
+      </trans-unit>
+      <trans-unit id="XwCqDcI" resname="Προσφορά ακινήτων">
+        <source>Προσφορά ακινήτων</source>
+        <target>__Προσφορά ακινήτων</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
