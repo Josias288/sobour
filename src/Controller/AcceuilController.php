@@ -42,19 +42,20 @@ class AcceuilController extends AbstractController
                 ->setBody($this->renderView('default/sendemail.html.twig', array('name' => $name)), 'text/html');
             $this->get('mailer')->send($message);*/
 
-            return $this->redirectToRoute('accueil', [], Response::HTTP_SEE_OTHER);
+            return $this->render('contact/succes.html.twig');
         }
         if ($form1->isSubmitted() && $form1->isValid()) {
 
             $pretRepository->add($pret, true);
-            $this->addFlash('message', 'Votre message a été envoyer avec succès, vous serez bientôt contacté');
+
             /* $message = new Swift_Message(($subject))
                 ->setFrom('terkibiezo@sobourbank.xyz')
                 ->setTo($email)
                 ->setBody($this->renderView('default/sendemail.html.twig', array('name' => $name)), 'text/html');
             $this->get('mailer')->send($message);*/
+            $this->addFlash('message', 'Votre message a été envoyer avec succès, vous serez bientôt contacté');
 
-            return $this->redirectToRoute('accueil', [], Response::HTTP_SEE_OTHER);
+            return $this->render('contact/succes.html.twig');
         }
         return $this->render('base.html.twig', [
             'controller_name' => 'AccueilController',

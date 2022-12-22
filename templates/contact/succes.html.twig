@@ -1,0 +1,12 @@
+<div>
+{% for message in app.flashes('message') %}
+        <div class="alert alert-success ">
+            {{ message }}
+        </div>
+    {% endfor %}
+    </div>
+
+<div class="row form-group">
+                <div class="col-md-12">
+    <a href="{{ path('accueil') }}" class="btn btn-info btn-sm  " role="button" aria-pressed="true">retour</a>
+    </div>
