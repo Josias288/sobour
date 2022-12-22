@@ -72,7 +72,7 @@
                 {% for locale in locales  %}
                 {% if locale != app.request.locale %}
                 
-                  <li><a href="#" class="nav-link"><img src="{{ asset('images/'~locale~'.png')}}" width="20" height="20" alt={{locale}}></a></li>{% endif %}
+                  <li><a href="{{path('change_locale',{'locale': locale})}}" class="nav-link"><img src="{{ asset('images/'~locale~'.png')}}" width="20" height="20" alt={{locale}}></a></li>{% endif %}
                
                 {% endfor %}
                 
