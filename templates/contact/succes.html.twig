@@ -1,12 +1,33 @@
-<div>
-{% for message in app.flashes('message') %}
-        <div class="alert alert-success ">
-            {{ message }}
-        </div>
-    {% endfor %}
-    </div>
+{% extends 'basee.html.twig' %}
 
-<div class="row form-group">
-                <div class="col-md-12">
-    <a href="{{ path('accueil') }}" class="btn btn-info btn-sm  " role="button" aria-pressed="true">retour</a>
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div>
+          {% for message in app.flashes('message') %}
+            <div class="alert alert-success">
+              {{ message }}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="row form-group">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <a href="{{ path('accueil') }}"
+            class="btn btn-info btn-sm"
+            role="button"
+            aria-pressed="true"
+            style="float:center">
+            retour
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
