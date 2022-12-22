@@ -229,8 +229,8 @@
         <source>Nos modes de paiement ou de facturation</source>
         <target>Our payment or billing methods</target>
       </trans-unit>
-      <trans-unit id="dCdnDpV" resname="Nous effectuons des prélèvements sur toutes les cartes de crédit et tous les comptes bancaires.">
-        <source>Nous débitons sur toutes les cartes de crédit et tous les comptes bancaires.</source>
+      <trans-unit id="dCdnDpV" resname="Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.">
+        <source>Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.</source>
         <target>We charge all credit cards and bank accounts.</target>
       </trans-unit>
       <trans-unit id="m3LI3Hq" resname="Quelle est la période de remboursement ?">
