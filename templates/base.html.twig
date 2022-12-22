@@ -69,12 +69,21 @@
                     
                   </ul>
                 </li>
+                {% for locale in locales  %}
+                {% if locale != app.request.locale %}
                 
-                <li><a href="#contact-section" class="nav-link">{% trans %}Contact{% endtrans %}</a></li>
-                <li class="social"><span class="icon-facebook"></span></li>
-                <li class="social"><span class="icon-twitter"></span></li>
-                <li class="social"><span class="icon-linkedin"></li>
+                  <li><a href="#" class="nav-link"><img src="{{ asset('images/'~locale~'.png')}}" width="20" height="20" alt={{locale}}></a></li>{% endif %}
+               
+                {% endfor %}
+                
+                
+
               </ul>
+
+              <ul class="navbar-nav ml-auto">
+                    
+              </ul>
+              
             </nav>
           </div>
 
