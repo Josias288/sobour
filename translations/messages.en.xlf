@@ -7,115 +7,115 @@
     <body>
       <trans-unit id="UzFhc1Y" resname="Accueil">
         <source>Accueil</source>
-        <target>__Accueil</target>
+        <target>Home</target>
       </trans-unit>
       <trans-unit id="XjmBJNr" resname="Demande de prêt">
         <source>Demande de prêt</source>
-        <target>__Demande de prêt</target>
+        <target>Loan Application</target>
       </trans-unit>
       <trans-unit id="cx4BcOz" resname="Qui sommes-nous ?">
         <source>Qui sommes-nous ?</source>
-        <target>__Qui sommes-nous ?</target>
+        <target>Who are we?</target>
       </trans-unit>
       <trans-unit id="BpbrXoh" resname="Notre équipe">
         <source>Notre équipe</source>
-        <target>__Notre équipe</target>
+        <target>Our staff</target>
       </trans-unit>
       <trans-unit id="DKKWVHA" resname="Nos services">
         <source>Nos services</source>
-        <target>__Nos services</target>
+        <target>Our services</target>
       </trans-unit>
       <trans-unit id="MUGK5iV" resname="Témoignages">
         <source>Témoignages</source>
-        <target>__Témoignages</target>
+        <target>Testimonials</target>
       </trans-unit>
       <trans-unit id="K1w9JnI" resname="Contact">
         <source>Contact</source>
-        <target>__Contact</target>
+        <target>Contact</target>
       </trans-unit>
       <trans-unit id="IbSELkx" resname="Solutions bancaires">
         <source>Solutions bancaires</source>
-        <target>__Solutions bancaires</target>
+        <target>Banking solutions</target>
       </trans-unit>
       <trans-unit id="vcTFZVB" resname="Des solutions bancaires ouvertes et flexibles pour les particuliers">
         <source>Des solutions bancaires ouvertes et flexibles pour les particuliers</source>
-        <target>__Des solutions bancaires ouvertes et flexibles pour les particuliers</target>
+        <target>Open and flexible banking solutions for individuals</target>
       </trans-unit>
       <trans-unit id="W3ima7K" resname="contactez-nous">
         <source>contactez-nous</source>
-        <target>__contactez-nous</target>
+        <target>contact us</target>
       </trans-unit>
       <trans-unit id="X_.xsv9" resname="Solutions financières">
         <source>Solutions financières</source>
-        <target>__Solutions financières</target>
+        <target>Financial Solutions</target>
       </trans-unit>
       <trans-unit id="NF69J9o" resname="Nous vous proposons une solution de financement personnalisée">
         <source>Nous vous proposons une solution de financement personnalisée</source>
-        <target>__Nous vous proposons une solution de financement personnalisée</target>
+        <target>We offer you a personalized financing solution</target>
       </trans-unit>
       <trans-unit id="7YwIKwi" resname="Sobour Bank est un groupe bancaire privé, dirigé par une association de commerçants.">
         <source>Sobour Bank est un groupe bancaire privé, dirigé par une association de commerçants.</source>
-        <target>__Sobour Bank est un groupe bancaire privé, dirigé par une association de commerçants.</target>
+        <target>Sobour Bank is a private banking group, managed by an association of traders.</target>
       </trans-unit>
       <trans-unit id="64U7kZw" resname="Nous résolvons votre problème financier">
         <source>Nous résolvons votre problème financier</source>
-        <target>__Nous résolvons votre problème financier</target>
+        <target>We solve your financial problem</target>
       </trans-unit>
       <trans-unit id="ft8OvsG" resname="Nous résolvons vos problèmes en créant des services financiers qui fonctionnent : sans frais de transaction">
         <source>Nous résolvons vos problèmes en créant des services financiers qui fonctionnent : sans frais de transaction</source>
-        <target>__Nous résolvons vos problèmes en créant des services financiers qui fonctionnent : sans frais de transaction</target>
+        <target>We solve your problems by creating financial services that work: no transaction fees</target>
       </trans-unit>
       <trans-unit id="DAJ5N6l" resname="Nous donnons accès à des interactions personnelles avec des conseillers financiers experts et à des programmes éducatifs qui informent et motivent.">
         <source>Nous donnons accès à des interactions personnelles avec des conseillers financiers experts et à des programmes éducatifs qui informent et motivent.</source>
-        <target>__Nous donnons accès à des interactions personnelles avec des conseillers financiers experts et à des programmes éducatifs qui informent et motivent.</target>
+        <target>We provide access to personal interactions with expert financial advisors and educational programs that inform and motivate.</target>
       </trans-unit>
       <trans-unit id="GvqSDm6" resname="Économie">
         <source>Économie</source>
-        <target>__Économie</target>
+        <target>Economy</target>
       </trans-unit>
       <trans-unit id="TpSca8m" resname="Obtenez un compte d'épargne et nos conseils">
         <source>Obtenez un compte d'épargne et nos conseils</source>
-        <target>__Obtenez un compte d'épargne et nos conseils</target>
+        <target>Get a savings account and our tips</target>
       </trans-unit>
       <trans-unit id="0UaNNhP" resname="Achats en ligne">
         <source>Achats en ligne</source>
-        <target>__Achats en ligne</target>
+        <target>On-line shopping</target>
       </trans-unit>
       <trans-unit id="qXoGs6H" resname="Nous avons des solutions pour vos achats en ligne avec des tarifs flexibles">
         <source>Nous avons des solutions pour vos achats en ligne avec des tarifs flexibles</source>
-        <target>__Nous avons des solutions pour vos achats en ligne avec des tarifs flexibles</target>
+        <target>We have solutions for your online purchases with flexible rates</target>
       </trans-unit>
       <trans-unit id="V_Le.W4" resname="Carte de crédit/débit">
         <source>Carte de crédit/débit</source>
-        <target>__Carte de crédit/débit</target>
+        <target>Credit/Debit Card</target>
       </trans-unit>
       <trans-unit id="00brLGX" resname="Nous créditons vos cartes Visa quelle que soit votre banque">
         <source>Nous créditons vos cartes Visa quelle que soit votre banque</source>
-        <target>__Nous créditons vos cartes Visa quelle que soit votre banque</target>
+        <target>We credit your Visa cards regardless of your bank</target>
       </trans-unit>
       <trans-unit id="AYKc2Ey" resname="Les solutions bancaires sont notre priorité">
         <source>Les solutions bancaires sont notre priorité</source>
-        <target>__Les solutions bancaires sont notre priorité</target>
+        <target>Banking solutions are our focus</target>
       </trans-unit>
       <trans-unit id="afxQCih" resname="Vivre pleinement vos projets en profitant de la vie">
         <source>Vivre pleinement vos projets en profitant de la vie</source>
-        <target>__Vivre pleinement vos projets en profitant de la vie</target>
+        <target>Live your projects to the fullest while enjoying life</target>
       </trans-unit>
       <trans-unit id="fgOa7Pa" resname="Offre aux étudiants">
         <source>Offre aux étudiants</source>
-        <target>__Offre aux étudiants</target>
+        <target>Offers to students</target>
       </trans-unit>
       <trans-unit id="ekqL5ov" resname="Offre immobilière">
         <source>Offre immobilière</source>
-        <target>__Offre immobilière</target>
+        <target>Real estate offers</target>
       </trans-unit>
       <trans-unit id="jmFqU.V" resname="Offre commerciale">
         <source>Offre commerciale</source>
-        <target>__Offre commerciale</target>
+        <target>Commercial offer</target>
       </trans-unit>
       <trans-unit id="nMG_Cl4" resname="Demander un prêt">
         <source>Demander un prêt</source>
-        <target>__Demander un prêt</target>
+        <target>Apply for a loan</target>
       </trans-unit>
       <trans-unit id="08k5laK" resname="Rencontrer l'équipe">
         <source>Rencontrer l'équipe</source>
@@ -123,159 +123,159 @@
       </trans-unit>
       <trans-unit id="Igw0q7P" resname="Quelques membres de notre équipe">
         <source>Quelques membres de notre équipe</source>
-        <target>__Quelques membres de notre équipe</target>
+        <target>Some members of our team</target>
       </trans-unit>
       <trans-unit id="yMJwL0O" resname="COMPTABLE">
         <source>COMPTABLE</source>
-        <target>__COMPTABLE</target>
+        <target>ACCOUNTANT</target>
       </trans-unit>
       <trans-unit id="FCpnIt9" resname="CAISSIER">
         <source>CAISSIER</source>
-        <target>__CAISSIER</target>
+        <target>CASHIER</target>
       </trans-unit>
       <trans-unit id="9IM6YVw" resname="Comment ça marche?">
         <source>Comment ça marche?</source>
-        <target>__Comment ça marche?</target>
+        <target>How does it work?</target>
       </trans-unit>
       <trans-unit id="vmDHZM1" resname="Obtenir de nous ce que vous voulez est simple">
         <source>Obtenir de nous ce que vous voulez est simple</source>
-        <target>__Obtenir de nous ce que vous voulez est simple</target>
+        <target>Getting what you want from us is simple</target>
       </trans-unit>
       <trans-unit id="c2tc2ZC" resname="Demande en ligne">
         <source>Demande en ligne</source>
-        <target>__Demande en ligne</target>
+        <target>Online application</target>
       </trans-unit>
       <trans-unit id="keuQtCc" resname="Dans le formulaire de contact, mettez l'objet de votre demande et une description détaillée sans oublier votre numéro de téléphone, l'indicatif du pays et votre adresse électronique.">
         <source>Dans le formulaire de contact, mettez l'objet de votre demande et une description détaillée sans oublier votre numéro de téléphone, l'indicatif du pays et votre adresse électronique.</source>
-        <target>__Dans le formulaire de contact, mettez l'objet de votre demande et une description détaillée sans oublier votre numéro de téléphone, l'indicatif du pays et votre adresse électronique.</target>
+        <target>In the contact form, put the subject of your request and a detailed description without forgetting your phone number, the country code and your e-mail address.</target>
       </trans-unit>
       <trans-unit id="IA.fFfq" resname="Pour en savoir plus">
         <source>Pour en savoir plus</source>
-        <target>__Pour en savoir plus</target>
+        <target>For more information</target>
       </trans-unit>
       <trans-unit id="IGxO3kc" resname="Obtenez l'approbation">
         <source>Obtenez l'approbation</source>
-        <target>__Obtenez l'approbation</target>
+        <target>Get approval</target>
       </trans-unit>
       <trans-unit id="A5EAa7W" resname="Nous vous contacterons alors pour vous informer de notre approbation et de nos conditions.">
         <source>Nous vous contacterons alors pour vous informer de notre approbation et de nos conditions.</source>
-        <target>__Nous vous contacterons alors pour vous informer de notre approbation et de nos conditions.</target>
+        <target>We will then contact you to inform you of our approval and conditions.</target>
       </trans-unit>
       <trans-unit id="x965cAK" resname="Débit sur le compte/la carte">
         <source>Débit sur le compte/la carte</source>
-        <target>__Débit sur le compte/la carte</target>
+        <target>Debit to account/card</target>
       </trans-unit>
       <trans-unit id="SrtOTs4" resname="Votre carte de débit ou votre compte sera crédité.">
         <source>Votre carte de débit ou votre compte sera crédité.</source>
-        <target>__Votre carte de débit ou votre compte sera crédité.</target>
+        <target>Your debit card or account will be credited.</target>
       </trans-unit>
       <trans-unit id="GWdaV3C" resname="Conseils pour l'épargne">
         <source>Conseils pour l'épargne</source>
-        <target>__Conseils pour l'épargne</target>
+        <target>Savings Tips</target>
       </trans-unit>
       <trans-unit id="JqB6.WR" resname="Adoptez les bonnes pratiques d'épargne et optimisez vos stratégies budgétaires dès maintenant avec nous">
         <source>Adoptez les bonnes pratiques d'épargne et optimisez vos stratégies budgétaires dès maintenant avec nous</source>
-        <target>__Adoptez les bonnes pratiques d'épargne et optimisez vos stratégies budgétaires dès maintenant avec nous</target>
+        <target>Adopt good savings practices and optimize your budget strategies now with us</target>
       </trans-unit>
       <trans-unit id="WB8De7b" resname="Carte de crédit">
         <source>Carte de crédit</source>
-        <target>__Carte de crédit</target>
+        <target>Credit card</target>
       </trans-unit>
       <trans-unit id="iy._7Y." resname="Offre à durée limitée. Achats minimums et produits d'assurance requis">
         <source>Offre à durée limitée. Achats minimums et produits d'assurance requis</source>
-        <target>__Offre à durée limitée. Achats minimums et produits d'assurance requis</target>
+        <target>Limited time offer. Minimum purchases and insurance products required</target>
       </trans-unit>
       <trans-unit id="83Kakxt" resname="Investissement financier">
         <source>Investissement financier</source>
-        <target>__Investissement financier</target>
+        <target>Financial investment</target>
       </trans-unit>
       <trans-unit id="G6jrwrF" resname="L'établissement d'une pyramide dans l'organisation de vos priorités financières vous permettra de distinguer les décisions secondaires de celles qui doivent être reportées.">
         <source>L'établissement d'une pyramide dans l'organisation de vos priorités financières vous permettra de distinguer les décisions secondaires de celles qui doivent être reportées.</source>
-        <target>__L'établissement d'une pyramide dans l'organisation de vos priorités financières vous permettra de distinguer les décisions secondaires de celles qui doivent être reportées.</target>
+        <target>Establishing a pyramid in the organization of your financial priorities will allow you to distinguish secondary decisions from those that must be postponed.</target>
       </trans-unit>
       <trans-unit id="GvFC7pY" resname="Gestion">
         <source>Gestion</source>
-        <target>__Gestion</target>
+        <target>Management</target>
       </trans-unit>
       <trans-unit id="bI3fpN0" resname="Découvrez les implications de l'alignement des objectifs de votre régime de retraite, de vos investissements, etc.">
         <source>Découvrez les implications de l'alignement des objectifs de votre régime de retraite, de vos investissements, etc.</source>
-        <target>__Découvrez les implications de l'alignement des objectifs de votre régime de retraite, de vos investissements, etc.</target>
+        <target>Learn about the implications of aligning the goals of your retirement plan, your investments, etc.</target>
       </trans-unit>
       <trans-unit id="BF5fqFc" resname="Clients satisfaits">
         <source>Clients satisfaits</source>
-        <target>__Clients satisfaits</target>
+        <target>Satisfied customers</target>
       </trans-unit>
       <trans-unit id="z.cylhw" resname="Très satisfait, surtout toujours disponible pour nous aider et répondre à nos questions.">
         <source>Très satisfait, surtout toujours disponible pour nous aider et répondre à nos questions.</source>
-        <target>__Très satisfait, surtout toujours disponible pour nous aider et répondre à nos questions.</target>
+        <target>Very satisfied, especially always available to help us and answer our questions.</target>
       </trans-unit>
       <trans-unit id="fQjkgEX" resname="Très compétent et soucieux de ses clients">
         <source>Très compétent et soucieux de ses clients</source>
-        <target>__Très compétent et soucieux de ses clients</target>
+        <target>Very competent and concerned about its customers</target>
       </trans-unit>
       <trans-unit id="VrKFr1n" resname="Large disponibilité de solutions financières avec des délais flexibles">
         <source>Large disponibilité de solutions financières avec des délais flexibles</source>
-        <target>__Large disponibilité de solutions financières avec des délais flexibles</target>
+        <target>Wide availability of financial solutions with flexible terms</target>
       </trans-unit>
       <trans-unit id="b3EQrtd" resname="Je suis satisfait">
         <source>Je suis satisfait</source>
-        <target>__Je suis satisfait</target>
+        <target>I am satisfied</target>
       </trans-unit>
       <trans-unit id="57Jiou_" resname="Foire aux questions">
         <source>Foire aux questions</source>
-        <target>__Foire aux questions</target>
+        <target>Frequently asked questions</target>
       </trans-unit>
       <trans-unit id="CdSMEuv" resname="Nos modes de paiement ou de facturation">
         <source>Nos modes de paiement ou de facturation</source>
-        <target>__Nos modes de paiement ou de facturation</target>
+        <target>Our payment or billing methods</target>
       </trans-unit>
       <trans-unit id="dCdnDpV" resname="Nous effectuons des prélèvements sur toutes les cartes de crédit et tous les comptes bancaires.">
-        <source>Nous effectuons des prélèvements sur toutes les cartes de crédit et tous les comptes bancaires.</source>
-        <target>__Nous effectuons des prélèvements sur toutes les cartes de crédit et tous les comptes bancaires.</target>
+        <source>Nous débitons sur toutes les cartes de crédit et tous les comptes bancaires.</source>
+        <target>We charge all credit cards and bank accounts.</target>
       </trans-unit>
       <trans-unit id="m3LI3Hq" resname="Quelle est la période de remboursement ?">
         <source>Quelle est la période de remboursement ?</source>
-        <target>__Quelle est la période de remboursement ?</target>
+        <target>What is the repayment period?</target>
       </trans-unit>
       <trans-unit id="XwfMwaE" resname="Des conditions flexibles en fonction de votre prêt">
         <source>Des conditions flexibles en fonction de votre prêt</source>
-        <target>__Des conditions flexibles en fonction de votre prêt</target>
+        <target>Flexible terms based on your loan</target>
       </trans-unit>
       <trans-unit id="gYV0aGA" resname="D'où êtes-vous ?">
         <source>D'où êtes-vous ?</source>
-        <target>__D'où êtes-vous ?</target>
+        <target>Where are you from?</target>
       </trans-unit>
       <trans-unit id="ehyk73U" resname="France">
         <source>France</source>
-        <target>__France</target>
+        <target>France</target>
       </trans-unit>
       <trans-unit id="AG3YiRx" resname="Quelles sont les heures d'ouverture ?">
         <source>Quelles sont les heures d'ouverture ?</source>
-        <target>__Quelles sont les heures d'ouverture ?</target>
+        <target>What are the opening hours ?</target>
       </trans-unit>
       <trans-unit id="lqc5WYf" resname="prêt bancaire">
         <source>prêt bancaire</source>
-        <target>__prêt bancaire</target>
+        <target>bank loan</target>
       </trans-unit>
       <trans-unit id="m5HRFmZ" resname="Consultation avec la banque">
         <source>Consultation avec la banque</source>
-        <target>__Consultation avec la banque</target>
+        <target>Consultation with the bank</target>
       </trans-unit>
       <trans-unit id="t8JfUgH" resname="cliquez sur le numero pour nous envoyez un message whatsapp">
         <source>cliquez sur le numero pour nous envoyez un message whatsapp</source>
-        <target>__cliquez sur le numero pour nous envoyez un message whatsapp</target>
+        <target>click on the number to send us a whatsapp message</target>
       </trans-unit>
       <trans-unit id="akpKKLm" resname="Formulaire de contact">
         <source>Formulaire de contact</source>
-        <target>__Formulaire de contact</target>
+        <target>Contact form</target>
       </trans-unit>
       <trans-unit id="JdZlWJU" resname="Liens rapides">
         <source>Liens rapides</source>
-        <target>__Liens rapides</target>
+        <target>Quick links</target>
       </trans-unit>
       <trans-unit id="YE3ORF4" resname="Services">
         <source>Services</source>
-        <target>__Services</target>
+        <target>Services</target>
       </trans-unit>
     </body>
   </file>
