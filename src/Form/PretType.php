@@ -15,25 +15,46 @@ class PretType extends AbstractType
     {
         $builder
             ->add('montant', TextType::class, array(
-                'label' => "Ποσό σε ευρώ για τόκο 3%.",
-                'attr' => array('class' => 'form-control',)
+                'label' => "Montant avec un intérêt de  3%.",
+                'attr' => array('class' => 'form-control',),
+                'translation_domain' => 'messages'
             ))
             ->add('duree', TextType::class, array(
-                'label' => "Διάρκεια σε χρόνια",
+                'label' => "Durée en année",
 
-                'attr' => array('class' => 'form-control', 'placeholder' => '4')
+                'attr' => array('class' => 'form-control', 'placeholder' => '4'),
+                'translation_domain' => 'messages'
             ))
             ->add('type', ChoiceType::class, array(
-                'label' => "Είδος δανείου",
+                'label' => "Type de prêt",
                 'choices'  => [
-                    'Επένδυση' => 'Investissement',
-                    'Στεγαστικό δάνειο' => 'Prêt immobilier',
-                    'Φοιτητικό δάνειο' => 'Prêt étudiant',
-                    'Προσωπικό δάνειο' => 'Prêt personnel',
-                    'Επαγγελματικό δάνειο' => 'Prêt professionnel',
+                    'Investissement' => 'Investissement',
+                    'Prêt immobilier' => 'Prêt immobilier',
+                    'Prêt étudiant' => 'Prêt étudiant',
+                    'Prêt personnel' => 'Prêt personnel',
+                    'Prêt professionnel' => 'Prêt professionnel',
 
                 ],
-                'attr' => array('class' => 'form-control', 'id' => 'fname')
+                'attr' => array('class' => 'form-control', 'id' => 'fname'),
+                'translation_domain' => 'messages'
+            ))
+            ->add('nom', TextType::class, array(
+                'label' => "Nom",
+
+                'attr' => array('class' => 'form-control'),
+                'translation_domain' => 'messages'
+            ))
+            ->add('email', TextType::class, array(
+                'label' => "Email",
+
+                'attr' => array('class' => 'form-control'),
+                'translation_domain' => 'messages'
+            ))
+            ->add('telephone', TextType::class, array(
+                'label' => "telephone",
+
+                'attr' => array('class' => 'form-control'),
+                'translation_domain' => 'messages'
             ));
     }
 

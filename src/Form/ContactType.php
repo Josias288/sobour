@@ -15,28 +15,34 @@ class ContactType extends AbstractType
     {
         $builder
             ->add('nom', TextType::class, array(
-                'label' => "Επίθετο",
-                'attr' => array('class' => 'form-control', 'id' => 'fname')
+                'label' => "Nom",
+                'attr' => array('class' => 'form-control', 'id' => 'fname'),
+                'translation_domain' => 'messages',
             ))
             ->add('prenom', TextType::class, array(
-                'label' => "Ονομα",
-                'attr' => array('class' => 'form-control', 'id' => 'lname')
+                'label' => "Prenom",
+                'attr' => array('class' => 'form-control', 'id' => 'lname'),
+                'translation_domain' => 'messages'
             ))
             ->add('telephone', TextType::class, array(
-                'label' => "Τηλεφωνικοί αριθμοί",
-                'attr' => array('class' => 'form-control')
+                'label' => "Telephone",
+                'attr' => array('class' => 'form-control'),
+                'translation_domain' => 'messages'
             ))
             ->add('email', TextType::class, array(
-                'label' => "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
-                'attr' => array('class' => 'form-control', 'id' => 'email')
+                'label' => "Email",
+                'attr' => array('class' => 'form-control', 'id' => 'email'),
+                'translation_domain' => 'messages'
             ))
             ->add('objet', TextType::class, array(
-                'label' => "θέμα",
-                'attr' => array('class' => 'form-control', 'id' => 'subject')
+                'label' => "Sujet",
+                'attr' => array('class' => 'form-control', 'id' => 'subject'),
+                'translation_domain' => 'messages'
             ))
             ->add('message', TextareaType::class, array(
-                'label' => "Μήνυμα",
-                'attr' => array('class' => 'form-control', 'id' => 'message')
+                'label' => "Message",
+                'attr' => array('class' => 'form-control', 'id' => 'message'),
+                'translation_domain' => 'messages'
             ));
     }
 
