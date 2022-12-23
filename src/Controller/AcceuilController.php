@@ -14,6 +14,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Contracts\Translation\TranslatorInterface;
 use Symfony\Component\Config\Definition\Exception\Exception;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
@@ -21,9 +22,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class AcceuilController extends AbstractController
 {
     /**
-     * @Route("/", name="accueil")
+     * @Route("/", name="accueil",schemes={"https"})
      */
-    public function index(Request $request, ContactRepository $contactRepository, PretRepository $pretRepository, MailerInterface $mailer): Response
+    public function index(Request $request, ContactRepository $contactRepository, PretRepository $pretRepository, MailerInterface $mailer,TranslatorInterface $translator): Response
     {
         $contact = new Contact();
         $pret = new Pret();
@@ -31,6 +32,8 @@ class AcceuilController extends AbstractController
         $form1 = $this->createForm(PretType::class, $pret);
         $form->handleRequest($request);
         $form1->handleRequest($request);
+        $translator->trans('Montant avec un intérêt de 3%');
+        
 
 
         if ($form->isSubmitted() && $form->isValid()) {
@@ -42,8 +45,9 @@ class AcceuilController extends AbstractController
             $telephone = $contact->getTelephone();
             $message = $contact->getMessage();
             $email = $contact->getEmail();
+            $message = $translator->trans('Votre message a été envoyer avec succès, vous serez bientôt contacté');
 
-            $this->addFlash('message', 'Votre message a été envoyer avec succès, vous serez bientôt contacté');
+            $this->addFlash('message', $message);
             $email = (new Email())
                 ->from('terkibiezo@sobourbank.xyz')
                 ->to('terkibiezo@sobourbank.xyz')
@@ -68,12 +72,13 @@ class AcceuilController extends AbstractController
             $type = $pret->getType();
             $nom = $pret->getNom();
             $telephone = $pret->getTelephone();
-            $email = $pret->setEmail();
+            $email = $pret->getEmail();
 
             $pretRepository->add($pret, true);
 
+            $message = $translator->trans('Votre message a été envoyer avec succès, vous serez bientôt contacté');
 
-            $this->addFlash('message', 'Votre message a été envoyer avec succès, vous serez bientôt contacté');
+            $this->addFlash('message', $message);
             $email = (new Email())
                 ->from('terkibiezo@sobourbank.xyz')
                 ->to('terkibiezo@sobourbank.xyz')

@@ -229,7 +229,7 @@
         <source>Nos modes de paiement ou de facturation</source>
         <target>Οι μέθοδοι πληρωμής ή χρέωσης</target>
       </trans-unit>
-      <trans-unit id="dCdnDpV" resname="Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.">
+      <trans-unit id="__wM75J" resname="Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.">
         <source>Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.</source>
         <target>Χρεώνουμε όλες τις πιστωτικές κάρτες και τους τραπεζικούς λογαριασμούς.</target>
       </trans-unit>
@@ -276,6 +276,54 @@
       <trans-unit id="YE3ORF4" resname="Services">
         <source>Services</source>
         <target>Υπηρεσίες</target>
+      </trans-unit>
+      <trans-unit id="9PkheqR" resname="Votre message a été envoyer avec succès, vous serez bientôt contacté">
+        <source>Votre message a été envoyer avec succès, vous serez bientôt contacté</source>
+        <target>Το μήνυμά σας στάλθηκε με επιτυχία, θα επικοινωνήσουμε μαζί σας σύντομα</target>
+      </trans-unit>
+      <trans-unit id="zI09a2a" resname="Montant avec un intérêt de 3%">
+        <source>Montant avec un intérêt de 3%</source>
+        <target>Ποσό με 3% Zinsen</target>
+      </trans-unit>
+      <trans-unit id="NmA.r5." resname="Montant avec un intérêt de  3%.">
+        <source>Montant avec un intérêt de  3%.</source>
+        <target>Ποσό με 3% Zinsen</target>
+      </trans-unit>
+      <trans-unit id="HixVW3R" resname="Durée en année">
+        <source>Durée en année</source>
+        <target>Διάρκεια σε έτη</target>
+      </trans-unit>
+      <trans-unit id="VF8emMF" resname="Type de prêt">
+        <source>Type de prêt</source>
+        <target>Τύπος δανείου</target>
+      </trans-unit>
+      <trans-unit id="ssEkU20" resname="Nom">
+        <source>Nom</source>
+        <target>Ονοματεπώνυμο</target>
+      </trans-unit>
+      <trans-unit id="LIzfY_J" resname="Numero de telephone">
+        <source>Numero de telephone</source>
+        <target>Αριθμός τηλεφώνου</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Ηλεκτρονικό ταχυδρομείο</target>
+      </trans-unit>
+      <trans-unit id="t8_nMCO" resname="Prenom">
+        <source>Prenom</source>
+        <target>Όνομα</target>
+      </trans-unit>
+      <trans-unit id="21nrsnI" resname="Sujet">
+        <source>Sujet</source>
+        <target>Θέμα</target>
+      </trans-unit>
+      <trans-unit id="L3dmip3" resname="Message">
+        <source>Message</source>
+        <target>Μήνυμα</target>
+      </trans-unit>
+      <trans-unit id="xttkBIN" resname="retour">
+        <source>retour</source>
+        <target>πίσω</target>
       </trans-unit>
     </body>
   </file>

@@ -229,7 +229,7 @@
         <source>Nos modes de paiement ou de facturation</source>
         <target>Unsere Zahlungs- oder Rechnungsmethoden</target>
       </trans-unit>
-      <trans-unit id="dCdnDpV" resname="Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.">
+      <trans-unit id="__wM75J" resname="Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.">
         <source>Nous effectuons des débits sur toutes les cartes de crédit et tous les comptes bancaires.</source>
         <target>Wir nehmen Abbuchungen von allen Kreditkarten und Bankkonten vor.</target>
       </trans-unit>
@@ -276,6 +276,54 @@
       <trans-unit id="YE3ORF4" resname="Services">
         <source>Services</source>
         <target>Dienste</target>
+      </trans-unit>
+      <trans-unit id="9PkheqR" resname="Votre message a été envoyer avec succès, vous serez bientôt contacté">
+        <source>Votre message a été envoyer avec succès, vous serez bientôt contacté</source>
+        <target>Ihre Nachricht wurde erfolgreich gesendet, Sie werden bald kontaktiert werden</target>
+      </trans-unit>
+      <trans-unit id="zI09a2a" resname="Montant avec un intérêt de 3%">
+        <source>Montant avec un intérêt de 3%</source>
+        <target>Betrag mit 3% Zinsen</target>
+      </trans-unit>
+      <trans-unit id="NmA.r5." resname="Montant avec un intérêt de  3%.">
+        <source>Montant avec un intérêt de  3%.</source>
+        <target>Betrag mit 3% Zinsen</target>
+      </trans-unit>
+      <trans-unit id="HixVW3R" resname="Durée en année">
+        <source>Durée en année</source>
+        <target>Dauer in Jahren</target>
+      </trans-unit>
+      <trans-unit id="VF8emMF" resname="Type de prêt">
+        <source>Type de prêt</source>
+        <target>Art des Kredits</target>
+      </trans-unit>
+      <trans-unit id="ssEkU20" resname="Nom">
+        <source>Nom</source>
+        <target>Familienname</target>
+      </trans-unit>
+      <trans-unit id="LIzfY_J" resname="Numero de telephone">
+        <source>Numero de telephone</source>
+        <target>Telefon-Nummer</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>E-Mail</target>
+      </trans-unit>
+      <trans-unit id="t8_nMCO" resname="Prenom">
+        <source>Prenom</source>
+        <target>Vorname</target>
+      </trans-unit>
+      <trans-unit id="21nrsnI" resname="Sujet">
+        <source>Sujet</source>
+        <target>Thema</target>
+      </trans-unit>
+      <trans-unit id="L3dmip3" resname="Message">
+        <source>Message</source>
+        <target>Nachricht</target>
+      </trans-unit>
+      <trans-unit id="xttkBIN" resname="retour">
+        <source>retour</source>
+        <target>zurück</target>
       </trans-unit>
     </body>
   </file>

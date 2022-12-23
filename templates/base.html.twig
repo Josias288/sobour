@@ -233,34 +233,42 @@
 
             <div class="row form-group">
                 <div class="col-md-12">
-                    {{ form_row(form1.montant) }}
+                {{ 'Montant avec un intérêt de  3%.'|trans }}
+
+              
+                    {{ form_widget(form1.montant) }}
                 </div>
                 <div class="col-md-12">
-                    {{ form_row(form1.duree) }}
+                {{ 'Durée en année'|trans }}
+                    {{ form_widget(form1.duree) }}
                 </div>
             </div>
             <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form1.type) }}
+                {{ 'Type de prêt'|trans }}
+                  {{ form_widget(form1.type) }}
                 </div>
               </div>
               <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form1.nom) }}
+                {{ 'Nom'|trans }}
+                  {{ form_widget(form1.nom) }}
                 </div>
               </div>
               <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form1.telephone) }}
+                {{ 'Numero de telephone'|trans }}
+                  {{ form_widget(form1.telephone) }}
                 </div>
               </div>
               <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form1.email) }}
+                {{ 'Email'|trans }}
+                  {{ form_widget(form1.email) }}
                 </div>
               </div>
             
@@ -648,34 +656,40 @@
 
             <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
-                    {{ form_row(form.nom) }}
+                {{ 'Nom'|trans }}
+                    {{ form_widget(form.nom) }}
                 </div>
                 <div class="col-md-6">
-                    {{ form_row(form.prenom) }}
+                {{ 'Prenom'|trans }}
+                    {{ form_widget(form.prenom) }}
                 </div>
             </div>
             <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form.telephone) }}
+                {{ 'Numero de telephone'|trans }}
+                  {{ form_widget(form.telephone) }}
                 </div>
               </div>
               <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form.email) }}
+                {{ 'Email'|trans }}
+                  {{ form_widget(form.email) }}
                 </div>
               </div>
                 <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form.objet) }}
+                {{ 'Sujet'|trans }}
+                  {{ form_widget(form.objet) }}
                 </div>
               </div>
               <div class="row form-group">
                 
                 <div class="col-md-12">
-                  {{ form_row(form.message) }}
+                {{ 'Message'|trans }}
+                  {{ form_widget(form.message) }}
                 </div>
               </div>
 
