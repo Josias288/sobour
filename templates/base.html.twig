@@ -69,12 +69,7 @@
                     
                   </ul>
                 </li>
-                {% for locale in locales  %}
-                {% if locale != app.request.locale %}
                 
-                  <li><a href="{{path('change_locale',{'locale': locale})}}" class="nav-link"><img src="{{ asset('images/'~locale~'.png')}}" width="20" height="20" alt={{locale}}></a></li>{% endif %}
-               
-                {% endfor %}
                 
                 
 
@@ -773,6 +768,14 @@
         </div>
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
+          <ul>
+          {% for locale in locales  %}
+                {% if locale != app.request.locale %}
+                
+                  <li class="social"><a href="{{path('change_locale',{'locale': locale})}}" ><img src="{{ asset('images/'~locale~'.png')}}" width="20" height="20" alt={{locale}}>{{locale}}</a></li>{% endif %}
+               
+                {% endfor %}
+                </ul>
             <div class="border-top pt-5">
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               <p>Copyright &copy;
